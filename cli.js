@@ -20,5 +20,6 @@ program
 
 program.parse(process.argv);
 if (process.argv.length === 2) {
-    api.showAll()
+    // add void only remove waring
+    void api.showAll()
 }
